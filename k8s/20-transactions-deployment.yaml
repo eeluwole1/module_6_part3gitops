@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/eeluwole1/module_6_part3_app-transactions:c7ed3ea88d1b54ac355cfa80bcbbe7eff1ce00bb
+          image: ghcr.io/eeluwole1/module_6_part3_app-transactions:cfbb07cabad32e150ee4d70806e307f0295fb9f5
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
